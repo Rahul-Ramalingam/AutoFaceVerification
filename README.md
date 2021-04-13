@@ -34,7 +34,7 @@ Technologies Used
 ## Demo
 
 <p align="center">
-  <img src="testing/demo.gif"/>
+  <img src="testing/Demo.gif"/>
 </p>
 
 ## Further Enhancement
