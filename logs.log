@@ -1,0 +1,20 @@
+2021-04-13 18:53:10,725 - INFO - Session created
+2021-04-13 18:53:30,071 - INFO - Session created
+2021-04-13 18:53:31,331 - INFO -  * Restarting with stat
+2021-04-13 18:53:33,912 - INFO - Session created
+2021-04-13 18:53:35,070 - WARNING -  * Debugger is active!
+2021-04-13 18:53:35,075 - INFO -  * Debugger PIN: 902-170-513
+2021-04-13 18:53:35,082 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-13 18:54:07,498 - INFO - 127.0.0.1 - - [13/Apr/2021 18:54:07] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-13 18:54:08,318 - INFO - 127.0.0.1 - - [13/Apr/2021 18:54:08] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2021-04-13 18:54:14,428 - INFO - 127.0.0.1 - - [13/Apr/2021 18:54:14] "[37mPOST /capture_image HTTP/1.1[0m" 200 -
+2021-04-13 18:54:14,678 - INFO - 127.0.0.1 - - [13/Apr/2021 18:54:14] "[37mGET /idfailed HTTP/1.1[0m" 200 -
+2021-04-13 18:54:18,807 - INFO - 127.0.0.1 - - [13/Apr/2021 18:54:18] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2021-04-13 18:54:59,215 - INFO -  * Detected change in 'D:\\projects\\python projects\\attendance\\halleyx\\AutoFaceVerification\\photoDetection.py', reloading
+2021-04-13 18:54:59,294 - INFO -  * Restarting with stat
+2021-04-13 18:55:02,029 - INFO - Session created
+2021-04-13 18:55:03,271 - WARNING -  * Debugger is active!
+2021-04-13 18:55:03,274 - INFO -  * Debugger PIN: 902-170-513
+2021-04-13 18:55:03,283 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-13 18:55:06,387 - INFO -  * Detected change in 'D:\\projects\\python projects\\attendance\\halleyx\\AutoFaceVerification\\photoDetection.py', reloading
+2021-04-13 18:55:06,482 - INFO -  * Restarting with stat

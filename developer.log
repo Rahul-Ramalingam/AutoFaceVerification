@@ -1,0 +1,35 @@
+2021-04-13 18:59:24,694 - INFO - Session created
+2021-04-13 18:59:40,533 - INFO - Session created
+2021-04-13 18:59:40,646 - INFO - Session created
+2021-04-13 18:59:41,928 - INFO -  * Restarting with stat
+2021-04-13 18:59:44,525 - INFO - Session created
+2021-04-13 18:59:44,646 - INFO - Session created
+2021-04-13 18:59:45,892 - WARNING -  * Debugger is active!
+2021-04-13 18:59:45,897 - INFO -  * Debugger PIN: 902-170-513
+2021-04-13 18:59:45,908 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-13 18:59:51,790 - INFO - 127.0.0.1 - - [13/Apr/2021 18:59:51] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-13 18:59:52,533 - INFO - 127.0.0.1 - - [13/Apr/2021 18:59:52] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2021-04-13 19:04:04,447 - INFO - Session created
+2021-04-13 19:04:04,572 - INFO - Session created
+2021-04-13 19:04:05,847 - INFO -  * Restarting with stat
+2021-04-13 19:04:08,291 - INFO - Session created
+2021-04-13 19:04:08,402 - INFO - Session created
+2021-04-13 19:04:09,559 - WARNING -  * Debugger is active!
+2021-04-13 19:04:09,564 - INFO -  * Debugger PIN: 902-170-513
+2021-04-13 19:04:09,573 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-13 19:04:16,786 - INFO - 127.0.0.1 - - [13/Apr/2021 19:04:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-13 19:04:17,585 - INFO - 127.0.0.1 - - [13/Apr/2021 19:04:17] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2021-04-13 19:06:06,063 - INFO - Session created
+2021-04-13 19:06:06,173 - INFO - Session created
+2021-04-13 19:06:06,238 - INFO -  * Restarting with stat
+2021-04-13 19:06:08,866 - INFO - Session created
+2021-04-13 19:06:09,002 - INFO - Session created
+2021-04-13 19:06:09,060 - WARNING -  * Debugger is active!
+2021-04-13 19:06:09,068 - INFO -  * Debugger PIN: 902-170-513
+2021-04-13 19:06:09,082 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-13 19:06:09,171 - INFO - 127.0.0.1 - - [13/Apr/2021 19:06:09] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-13 19:06:09,414 - ERROR - Camera permissions not enabled
+2021-04-13 19:06:09,416 - INFO - 127.0.0.1 - - [13/Apr/2021 19:06:09] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2021-04-13 19:07:44,634 - INFO -  * Detected change in 'D:\\projects\\python projects\\attendance\\halleyx\\AutoFaceVerification\\main.py', reloading
+2021-04-13 19:07:44,709 - INFO -  * Restarting with stat
+2021-04-13 19:07:47,137 - INFO - Session created
