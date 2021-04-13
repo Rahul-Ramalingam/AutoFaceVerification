@@ -1,0 +1,13 @@
+certifi==2020.12.5
+click==7.1.2
+cmake==3.18.4.post1
+dlib==19.22.0
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+numpy==1.19.5
+opencv-python==4.5.1.48
+Werkzeug==1.0.1
+wincertstore==0.2
+face-recognition
