@@ -16,7 +16,7 @@ class UserVerification:
         return err 
 
     #Used to compare the similarity of id images obtained
-    def compare_images(self,imageA, imageB, title):
+    def compare_images(self,imageA, imageB):
         m = self.mse(imageA, imageB)
         return m
 
@@ -41,22 +41,21 @@ class UserVerification:
         return face_locations,frame,id_cropped_resized
 
     #used to verify face
-    def similarityChecker(self,encoding_1,encoding_2):
-        distance = face_recognition.face_distance(np.array(encoding_1),np.array(encoding_2))
-        print(distance)
+    def verifyFace(self,encoding_1,encoding_2):
+        #compute similarity of face
+        distance = np.linalg.norm(np.array(encoding_1) - np.array(encoding_2), axis=1)
         if(distance<0.45):
             return True
         else:
             return False
 
     #check id similarity
-    def idChecker(self,imageToVerify):
+    def verifyID(self,imageToVerify):
         isOriginal = False
         imageToVerify_resized = cv2.resize(imageToVerify,(500,500))
         for item in self.images:
-            score = (self.compare_images(item, imageToVerify_resized, "Original vs aadhar"))
-            print(score)
-            if (score< 15000):
+            score = (self.compare_images(item, imageToVerify_resized))
+            if (score< 1500000):
                 isOriginal = True
                 #print("ginal ginal original")
                 break
@@ -68,18 +67,17 @@ class UserVerification:
         encoding_one = face_recognition.face_encodings(img,[coords[0]])
         encoding_two = face_recognition.face_encodings(img,[coords[1]])
 
-        return(self.similarityChecker(encoding_one,encoding_two))
+        return(self.verifyFace(encoding_one,encoding_two))
 
     #main verification function
     def verification(self,coords):
         idImg = cv2.imread('id.jpg')
-        if(self.idChecker(idImg)):
+        if(self.verifyID(idImg)):
             if(self.faceVerification(coords)):
                 return "VerificationSuccess"
             else:
                 return "FaceVerificationFailed"
         else:
-            print("verification failed")
             return "IdVerificationFailed"
 
 

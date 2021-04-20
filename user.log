@@ -38,3 +38,33 @@
 2021-04-16 12:24:35,200 - INFO - id verification fail
 2021-04-16 12:24:35,204 - INFO - 127.0.0.1 - - [16/Apr/2021 12:24:35] "[37mGET /idfailed HTTP/1.1[0m" 200 -
 2021-04-16 12:24:38,658 - INFO - 127.0.0.1 - - [16/Apr/2021 12:24:38] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2021-04-20 11:39:33,702 - INFO - Session created
+2021-04-20 11:39:35,415 - INFO -  * Restarting with stat
+2021-04-20 11:39:37,540 - INFO - Session created
+2021-04-20 11:39:38,677 - WARNING -  * Debugger is active!
+2021-04-20 11:39:38,682 - INFO -  * Debugger PIN: 902-170-513
+2021-04-20 11:39:38,691 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-20 11:39:44,948 - INFO - 127.0.0.1 - - [20/Apr/2021 11:39:44] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-20 11:39:45,037 - INFO - 127.0.0.1 - - [20/Apr/2021 11:39:45] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2021-04-20 11:39:45,957 - INFO - 127.0.0.1 - - [20/Apr/2021 11:39:45] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2021-04-20 11:39:46,360 - INFO - 127.0.0.1 - - [20/Apr/2021 11:39:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-04-20 11:41:22,842 - INFO - 127.0.0.1 - - [20/Apr/2021 11:41:22] "[37mPOST /capture_image HTTP/1.1[0m" 200 -
+2021-04-20 11:41:23,045 - INFO - id verification fail
+2021-04-20 11:41:23,047 - INFO - 127.0.0.1 - - [20/Apr/2021 11:41:23] "[37mGET /idfailed HTTP/1.1[0m" 200 -
+2021-04-20 11:41:43,075 - INFO -  * Detected change in 'D:\\projects\\python projects\\attendance\\halleyx\\AutoFaceVerification\\photoDetection.py', reloading
+2021-04-20 11:41:43,165 - INFO -  * Restarting with stat
+2021-04-20 11:41:45,786 - INFO - Session created
+2021-04-20 11:41:47,021 - WARNING -  * Debugger is active!
+2021-04-20 11:41:47,025 - INFO -  * Debugger PIN: 902-170-513
+2021-04-20 11:41:47,038 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-20 11:41:51,830 - INFO - 127.0.0.1 - - [20/Apr/2021 11:41:51] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2021-04-20 11:42:19,968 - INFO - verified
+2021-04-20 11:42:19,968 - INFO - 127.0.0.1 - - [20/Apr/2021 11:42:19] "[37mPOST /capture_image HTTP/1.1[0m" 200 -
+2021-04-20 11:42:20,172 - INFO - success called
+2021-04-20 11:42:20,385 - INFO - 127.0.0.1 - - [20/Apr/2021 11:42:20] "[37mGET /success HTTP/1.1[0m" 200 -
+2021-04-20 11:42:27,861 - INFO - 127.0.0.1 - - [20/Apr/2021 11:42:27] "[37mGET /video_feed HTTP/1.1[0m" 200 -
+2021-04-20 11:42:48,203 - WARNING - two faces not identified
+2021-04-20 11:42:48,204 - INFO - 127.0.0.1 - - [20/Apr/2021 11:42:48] "[37mPOST /capture_image HTTP/1.1[0m" 200 -
+2021-04-20 11:42:48,617 - INFO - face verification fail
+2021-04-20 11:42:48,824 - INFO - 127.0.0.1 - - [20/Apr/2021 11:42:48] "[37mGET /failed HTTP/1.1[0m" 200 -
+2021-04-20 11:42:53,481 - INFO - 127.0.0.1 - - [20/Apr/2021 11:42:53] "[37mGET /video_feed HTTP/1.1[0m" 200 -
