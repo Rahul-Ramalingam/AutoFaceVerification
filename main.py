@@ -9,7 +9,7 @@ from logger import createLog
 
 
 createLog('user')
-user = logging.getLogger('user')
+user = logging.getLogger('user')   
 
 
 
